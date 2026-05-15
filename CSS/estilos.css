@@ -469,3 +469,64 @@ footer{
     transform:scale(1.03);
 
 }
+
+/* CONCEPTOS */
+
+.conceptos{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:2rem;
+
+    margin-top:3rem;
+
+}
+
+
+/* TÍTULO */
+
+.conceptos h2{
+
+    width:100%;
+
+    text-align:center;
+
+    font-family:'Orbitron', sans-serif;
+
+    color:#48bfff;
+
+    margin-bottom:1rem;
+
+}
+
+
+/* CAJAS */
+
+.concepto{
+
+    background-color:#0c3c5d;
+
+    border:.1rem solid #48bfff;
+
+    border-radius:1rem;
+
+    padding:1rem 2rem;
+
+    min-width:15rem;
+
+    text-align:center;
+
+}
+
+
+.concepto h3{
+
+    color:white;
+
+}
